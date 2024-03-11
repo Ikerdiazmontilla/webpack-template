@@ -7,5 +7,15 @@
         "prettier/prettier": ["error"],
         "no-undef":"off",
         "func-names": "off"
-    }
+    },
+    "overrides": [
+      {
+        "files": ["tests/**/*"],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
+    
+    
   }
